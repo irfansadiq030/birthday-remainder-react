@@ -1,0 +1,40 @@
+body{
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    width: 400px;
+    margin: 70px auto;
+    /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+}
+.media{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+.media h5{
+    font-weight: 600;
+    font-size: 16px;
+}
+.heading{
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 22px;
+    /* paddin: 10px; */
+}
+.media:last-child{
+    margin-bottom: 10px;
+}
+.media_txt{
+    margin-top: 12px;
+    margin-left: 25px;
+    text-align: left;
+}
+.media_txt p{
+    margin-top: -7px;
+}
+img{
+    clip-path: circle();
+}
